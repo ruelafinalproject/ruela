@@ -1,0 +1,443 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale, shrink-to-fit=no">
+	<title>Get Started</title>
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="css/hover.css">
+
+	<style type="text/css">
+		.siya {
+			background-image: url('img/bg.png');
+			background-repeat: repeat;
+			background-size: cover;
+			width: 100%;
+			height: 100%;
+		}
+		.transparent{
+			background-color: #000000;
+			width: auto;
+			height: auto;
+			background-color: rgba(0,0,0,0.5);
+			padding: 5%;
+			margin: 4% 0 0 14%;
+		}
+
+button{
+	margin: 0 0 0 25%;
+	}
+.lihok {
+	--webkit-animation: bg-pan-tl 15s infinite alternate-reverse both;
+	        animation: bg-pan-tl 15s infinite alternate-reverse both;
+}
+@-webkit-keyframes bg-pan-tl {
+  0% {
+    background-position: 100% 100%;
+  }
+  100% {
+    background-position: 0% 0%;
+  }
+}
+@keyframes bg-pan-tl {
+  0% {
+    background-position: 100% 100%;
+  }
+  100% {
+    background-position: 0% 0%;
+  }
+}
+
+.tabon {
+  position:absolute;
+  display: block;
+}
+.tabon:before {
+  content:'';
+  position:absolute;
+  left:0; top:0;
+  width:100%; height:100%;
+  display:inline-block;
+  background: -moz-linear-gradient(top, rgba(0,47,75,0.5) 0%, rgba(220, 66, 37, 0.5) 100%); /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(220, 66, 37, 0.5)), color-stop(100%,rgba(0,47,75,0.5)));
+  background: -webkit-linear-gradient(top, rgba(0,47,75,0.5) 0%,rgba(220, 66, 37, 0.5) 100%); /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top, rgba(0,47,75,0.5) 0%,rgba(220, 66, 37, 0.5) 100%); /* Opera 11.10+ */
+  background: -ms-linear-gradient(top, rgba(0,47,75,0.5) 0%,rgba(220, 66, 37, 0.5) 100%); /* IE10+ */
+  background: linear-gradient(to bottom, rgba(0,47,75,0.5) 0%,rgba(220, 66, 37, 0.5) 100%); /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#002f4b', endColorstr='#00000000',GradientType=0 ); /* IE6-9 */
+}
+.sulat {
+	color: black;
+text-shadow: 0 -1px 4px #FFF, 0 -2px 10px #ff0, 0 -10px 20px #ff8000, 0 -18px 40px #F00;
+}
+.sabon {
+	-webkit-animation: text-pop-up-top 5s cubic-bezier(0.250, 0.460, 0.450, 0.940) infinite alternate-reverse both;
+	        animation: text-pop-up-top 5s cubic-bezier(0.250, 0.460, 0.450, 0.940) infinite alternate-reverse both;
+}
+@-webkit-keyframes text-pop-up-top {
+  0% {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+    -webkit-transform-origin: 50% 50%;
+            transform-origin: 50% 50%;
+    text-shadow: none;
+  }
+  100% {
+    -webkit-transform: translateY(-50px);
+            transform: translateY(-50px);
+    -webkit-transform-origin: 50% 50%;
+            transform-origin: 50% 50%;
+    text-shadow: 0 -1px 4px #FFF, 0 -2px 10px #ff0, 0 -10px 20px #ff8000, 0 -18px 40px #F00;
+  }
+}
+@keyframes text-pop-up-top {
+  0% {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+    -webkit-transform-origin: 50% 50%;
+            transform-origin: 50% 50%;
+    text-shadow: none;
+  }
+  100% {
+    -webkit-transform: translateY(-50px);
+            transform: translateY(-50px);
+    -webkit-transform-origin: 50% 50%;
+            transform-origin: 50% 50%;
+    text-shadow: 0 -1px 4px #FFF, 0 -2px 10px #ff0, 0 -10px 20px #ff8000, 0 -18px 40px #F00;
+  }
+}
+
+  .untol {
+  -webkit-animation-name: bounceIn;
+  animation-name: bounceIn;
+  -webkit-animation-duration: .75s;
+  animation-duration: .75s;
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+  }
+  @-webkit-keyframes bounceIn {
+  0%, 20%, 40%, 60%, 80%, 100% {
+  -webkit-transition-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000);
+  transition-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000);
+  }
+  0% {
+  opacity: 0;
+  -webkit-transform: scale3d(.3, .3, .3);
+  transform: scale3d(.3, .3, .3);
+  }
+  20% {
+  -webkit-transform: scale3d(1.1, 1.1, 1.1);
+  transform: scale3d(1.1, 1.1, 1.1);
+  }
+  40% {
+  -webkit-transform: scale3d(.9, .9, .9);
+  transform: scale3d(.9, .9, .9);
+  }
+  60% {
+  opacity: 1;
+  -webkit-transform: scale3d(1.03, 1.03, 1.03);
+  transform: scale3d(1.03, 1.03, 1.03);
+  }
+  80% {
+  -webkit-transform: scale3d(.97, .97, .97);
+  transform: scale3d(.97, .97, .97);
+  }
+  100% {
+  opacity: 1;
+  -webkit-transform: scale3d(1, 1, 1);
+  transform: scale3d(1, 1, 1);
+  }
+  }
+  @keyframes bounceIn {
+  0%, 20%, 40%, 60%, 80%, 100% {
+  -webkit-transition-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000);
+  transition-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000);
+  }
+  0% {
+  opacity: 0;
+  -webkit-transform: scale3d(.3, .3, .3);
+  transform: scale3d(.3, .3, .3);
+  }
+  20% {
+  -webkit-transform: scale3d(1.1, 1.1, 1.1);
+  transform: scale3d(1.1, 1.1, 1.1);
+  }
+  40% {
+  -webkit-transform: scale3d(.9, .9, .9);
+  transform: scale3d(.9, .9, .9);
+  }
+  60% {
+  opacity: 1;
+  -webkit-transform: scale3d(1.03, 1.03, 1.03);
+  transform: scale3d(1.03, 1.03, 1.03);
+  }
+  80% {
+  -webkit-transform: scale3d(.97, .97, .97);
+  transform: scale3d(.97, .97, .97);
+  }
+  100% {
+  opacity: 1;
+  -webkit-transform: scale3d(1, 1, 1);
+  transform: scale3d(1, 1, 1);
+  }
+  } 
+.ikaw {
+	background-image: linear-gradient(to right top, #b75c17, #c66d1a, #d57f1d, #e29221, #efa526, #f2a627, #f6a727, #f9a828, #f49726, #ed8725, #e67626, #de6627);
+}
+</style>
+</head>
+<body class="siya lihok" style="padding: 2px">
+		<div class="container" style="margin-top: 8%">	
+				<div class="m-5 text-center font-weight-bold">	
+					<h1 class="sulat sabon" style="font-size: 4rem">LIST OF TOPICS</h1>
+				</div>
+			</div>	
+			<div class="transparent container tabon hvr-grow-shadow">
+				<div class="container text-uppercase untol">
+					<div class="row">
+						<div class="col-md-4 box hvr-buzz-out untol">
+							<div class="border border-warning">	
+								<div class="card-body text-white font-weight-bold">	
+									<p class="text-center">software aquisition and implementation</p><hr> <br>
+									<button type="button" class="btn btn-warning" data-toggle="modal" data-target="#acqua">Learn More</button>
+								</div>	
+							</div>	
+						</div>
+						<div class="col-md-4 box hvr-buzz-out untol">
+							<div class="border border-warning">	
+								<div class="card-body text-white font-weight-bold">	
+									<p class="text-center">system needs assessment</p><hr><br> <br>
+									<button type="button" class="btn btn-warning" data-toggle="modal" data-target="#require">Learn More</button>
+								</div>	
+							</div>
+						</div>
+						<div class="col-md-4 hvr-buzz-out untol">
+							<div class="border border-warning">	
+								<div class="card-body text-white font-weight-bold">	
+									<p class="text-center">software economics</p><hr><br><br>
+									<button class="btn btn-warning" data-toggle="modal" data-target="#Integration">Learn More</button>
+								</div>	
+							</div>
+						</div>
+					</div>
+					<div class="row" style="margin-top: 5%">
+						<div class="col-md-4 box hvr-buzz-out untol">
+							<div class="border border-warning">	
+								<div class="card-body text-white font-weight-bold">	
+									<p class="text-center">enterprise systems</p><hr><br> <br>
+									<button class="btn btn-warning" data-toggle="modal" data-target="#Project">Learn More</button>
+								</div>	
+							</div>	
+						</div>
+						<div class="col-md-4 box hvr-buzz-out untol">
+							<div class="border border-warning">	
+								<div class="card-body text-white font-weight-bold">	
+									<p class="text-center">knowledge management</p><hr><br><br>
+									<button class="btn btn-warning" data-toggle="modal" data-target="#Testing">Learn More</button>
+								</div>	
+							</div>
+						</div>
+						<div class="col-md-4 hvr-buzz-out untol">
+							<div class="border border-warning">	
+								<div class="card-body text-white font-weight-bold">	
+									<p class="text-center">Computing economics</p><hr><br> <br>
+									<button class="btn btn-warning" data-toggle="modal" data-target="#Organizational">Learn More</button>
+								</div>	
+							</div>
+						</div>
+					</div>
+					<div class="row" style="margin-top: 5%">
+						<div class="col-md-12 hvr-buzz-out untol">
+							<div class="border border-warning">	
+								<div class="card-body text-white font-weight-bold">	
+									<p class="text-center">software testing</p><hr>
+									<button class="btn btn-warning" style="margin-left: 44%" data-toggle="modal" data-target="#Architecture">Learn More</button>
+								</div>	
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div>
+		<!-- Modal -->
+			<div class="modal fade " id="acqua" data-backdrop="static" data-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+			  <div class="modal-dialog modal-dialog-scrollable">
+			    <div class="modal-content">
+			      <div class="modal-header ikaw">
+			        <h5 class="modal-title text-uppercase" id="staticBackdropLabel">software aquisition and implementation</h5>
+			        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+			          <span aria-hidden="true">&times;</span>
+			        </button>
+			      </div>
+			      <div class="modal-body siya lihok">
+			       	<h5 class="text-white font-weight-light">
+			       		The acquisition and implementation of software systems are finite projects with a specific goal (successful system implementation) and defined scope and resources, and the project team often includes individuals from the vendor, different departments and various organizational roles.<br>
+
+					<span class="font-weight-bold tex-danger">FOR MORE LEARNINGS CLICK <a href="https://www.scottsdaleaz.gov/Assets/ScottsdaleAZ/Auditor/Audit-Reports/2017+Reports/Software+Acquisition+and+Implementation+-+Report+1708.pdf">HERE!</a></span>
+			       	</h5>
+			      </div>
+			      <div class="modal-footer ikaw">
+			        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+			        <button type="button" class="btn btn-primary" data-dismiss="modal">Understood</button>
+			      </div>
+			    </div>
+			</div>
+		</div>
+
+
+				<div class="modal fade" id="require" data-backdrop="static" data-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+				  <div class="modal-dialog modal-dialog-scrollable">
+				    <div class="modal-content">
+				      <div class="modal-header ikaw">
+				        <h5 class="modal-title" id="staticBackdropLabel">system needs assessment</h5>
+				        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+				          <span aria-hidden="true">&times;</span>
+				        </button>
+				      </div>
+				      <div class="modal-body siya lihok">
+				        <h5 class="text-white font-weight-light">
+				        	A needs assessment is a part of planning processes, often used for improvement in individuals, education/training, organizations, or communities. It can refine and improve a product such as a training or service a client receives. It can be an effective tool to clarify problems and identify appropriate interventions or solutions.[2] By clearly identifying the problem, finite resources can be directed towards developing and implementing a feasible and applicable solution.[3] Gathering appropriate and sufficient data informs the process of developing an effective product that will address the groups needs and wants.[4] Needs assessments are only effective when they are ends-focused and provide concrete evidence that can be used to determine which of the possible means-to-the-ends are most effective and efficient for achieving the desired results.[5]<br>
+<span class="font-weight-bold tex-danger">FOR MORE LEARNINGS CLICK <a href="https://en.wikipedia.org/wiki/Needs_assessment#:~:text=A%20needs%20assessment%20is%20a,to%20appropriately%20identify%20the%20need.">HERE!</a></span>
+						        </h5>
+				      </div>
+				      <div class="modal-footer ikaw">
+				        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+				        <button type="button" class="btn btn-primary" data-dismiss="modal">Understood</button>
+				      </div>
+				    </div>
+				  </div>
+				</div>
+
+				<div class="modal fade" id="Integration" data-backdrop="static" data-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+				  <div class="modal-dialog modal-dialog-scrollable">
+				    <div class="modal-content">
+				      <div class="modal-header ikaw">
+				        <h5 class="modal-title" id="staticBackdropLabel">software economics</h5>
+				        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+				          <span aria-hidden="true">&times;</span>
+				        </button>
+				      </div>
+				      <div class="modal-body siya lihok">
+				        <h5 class="text-white font-weight-light">
+				        	Software economics is the field that seeks to enable significant improvements in software design and engineering through economic reasoning about product, process, program, and portfolio and policy issues. We summarize the state of the art and identify shortfalls in existing knowledge<br>
+<span class="font-weight-bold tex-danger">FOR MORE LEARNINGS CLICK <a href="https://www.researchgate.net/publication/2411293_Software_Economics_A_Roadmap#:~:text=Software%20economics%20is%20the%20field,identify%20shortfalls%20in%20existing%20knowledge.">HERE!</a></span>
+						        </h5>
+				      </div>
+				      <div class="modal-footer ikaw">
+				        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+				        <button type="button" class="btn btn-primary" data-dismiss="modal">Understood</button>
+				      </div>
+				    </div>
+				  </div>
+				</div>
+
+				<div class="modal fade" id="Project" data-backdrop="static" data-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+				  <div class="modal-dialog modal-dialog-scrollable">
+				    <div class="modal-content">
+				      <div class="modal-header ikaw">
+				        <h5 class="modal-title" id="staticBackdropLabel">enterprise systems</h5>
+				        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+				          <span aria-hidden="true">&times;</span>
+				        </button>
+				      </div>
+				      <div class="modal-body siya lihok">
+				        <h5 class="text-white font-weight-light">
+				        	Enterprise systems are large-scale software packages that are able to track and control all of the complex operations of a business. These systems are used as a central command hub to help automate the business and make reporting and decision making easier.<br>
+<span class="font-weight-bold tex-danger">FOR MORE LEARNINGS CLICK <a href="https://elearning.scranton.edu/resource/business-leadership/10-ways-enterprise-systems-affect-your-business#:~:text=Enterprise%20systems%20are%20large%2Dscale,reporting%20and%20decision%20making%20easier.">HERE!</a></span>
+						        </h5>
+				      </div>
+				      <div class="modal-footer ikaw">
+				        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+				        <button type="button" class="btn btn-primary" data-dismiss="modal">Understood</button>
+				      </div>
+				    </div>
+				  </div>
+				</div>
+
+				<div class="modal fade" id="Testing" data-backdrop="static" data-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+				  <div class="modal-dialog modal-dialog-scrollable">
+				    <div class="modal-content">
+				      <div class="modal-header ikaw">
+				        <h5 class="modal-title" id="staticBackdropLabel">knowledge management</h5>
+				        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+				          <span aria-hidden="true">&times;</span>
+				        </button>
+				      </div>
+				      <div class="modal-body siya lihok">
+				        <h5 class="text-white font-weight-light">
+				        	Knowledge management is the conscious process of defining, structuring, retaining and sharing the knowledge and experience of employees within an organization.<br>
+				        	The main goal of knowledge management is to improve an organization's efficiency and save knowledge within the company.<br>
+				        	Often it is referring to training and learning in an organization or of its customers. It consists of a cycle of creating, sharing, structuring and auditing knowledge, in order to maximize the effectiveness of an organization’s collective knowledge.<br>
+<span class="font-weight-bold tex-danger">FOR MORE LEARNINGS CLICK <a href="https://www.valamis.com/hub/knowledge-management#:~:text=Knowledge%20management%20is%20the%20conscious,save%20knowledge%20within%20the%20company.">HERE!</a></span>
+						        </h5>
+				      </div>
+				      <div class="modal-footer ikaw">
+				        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+				        <button type="button" class="btn btn-primary" data-dismiss="modal">Understood</button>
+				      </div>
+				    </div>
+				  </div>
+				</div>
+
+				<div class="modal fade" id="Organizational" data-backdrop="static" data-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+				  <div class="modal-dialog modal-dialog-scrollable">
+				    <div class="modal-content">
+				      <div class="modal-header ikaw">
+				        <h5 class="modal-title" id="staticBackdropLabel">Computing economics</h5>
+				        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+				          <span aria-hidden="true">&times;</span>
+				        </button>
+				      </div>
+				      <div class="modal-body siya lihok">
+				        <h5 class="text-white font-weight-light">
+				        	Computational economics is a field of economic study at the intersection of computer science, economics and management science. The main focus of is the integration of information (IT) into economics and the automation of formerly manual processes.<br>
+
+Computational economics uses advanced computing to solve problems from all branches of economic study. Both empirical and theoretical economics can use computational economics.<br>
+<span class="font-weight-bold tex-danger">FOR MORE LEARNINGS CLICK <a href="https://whatis.techtarget.com/definition/computational-economics#:~:text=Computational%20economics%20is%20a%20field,automation%20of%20formerly%20manual%20processes.">HERE!</a></span>
+
+						        </h5>
+				      </div>
+				      <div class="modal-footer ikaw">
+				        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+				        <button type="button" class="btn btn-primary" data-dismiss="modal">Understood</button>
+				      </div>
+				    </div>
+				  </div>
+				</div>
+
+				<div class="modal fade" id="Architecture" data-backdrop="static" data-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+				  <div class="modal-dialog modal-dialog-scrollable">
+				    <div class="modal-content">
+				      <div class="modal-header ikaw">
+				        <h5 class="modal-title" id="staticBackdropLabel">software testing</h5>
+				        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+				          <span aria-hidden="true">&times;</span>
+				        </button>
+				      </div>
+				      <div class="modal-body siya lihok">
+				        <h5 class="text-white font-weight-light">
+				        	Software testing is an investigation conducted to provide stakeholders with information about the quality of the software product or service under test.[1] <br>Software testing can also provide an objective, independent view of the software to allow the business to appreciate and understand the risks of software <br>implementation. Test techniques include the process of executing a program or application with the intent of finding software bugs (errors or other defects), and verifying that the software product is fit for use.<br>
+
+Software testing involves the execution of a software component or system component to evaluate one or more properties of interest. In general, these properties indicate the extent to which the component or system under test:<br>
+<span class="font-weight-bold tex-danger">FOR MORE LEARNINGS CLICK <a href="https://www.sciencedirect.com/topics/computer-science/integration-architecture">HERE!</a></span>
+						        </h5>
+				      </div>
+				      <div class="modal-footer ikaw">
+				        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+				        <button type="button" class="btn btn-primary" data-dismiss="modal">Understood</button>
+				      </div>
+				    </div>
+				  </div>
+				</div>
+
+</body>
+<script src="http://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js" ></script>
+<script type="text/javascript" src="js/jquery-3.5.1.slim.min.js"></script>
+<script type="text/javascript" src="js/popper.min.js"></script>
+<script type="text/javascript" src="js/bootstrap.min.js"></script>
+<script>
+	
+</script>
+</html>
